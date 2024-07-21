@@ -32,7 +32,7 @@ class CustomAppBar extends StatelessWidget {
             "Foodi".toUpperCase(),
             style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
           ),
-          Spacer(),
+          const Spacer(),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 15),
             child: Text(
